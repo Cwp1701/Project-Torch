@@ -2,7 +2,7 @@
 from ItemBase import BaseItem
 
 
-class character:
+class Chr:
 
     def __init__(self, health, InvSpace, alive):
         self.health = health

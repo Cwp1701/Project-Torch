@@ -1,16 +1,25 @@
-from Character import character
-
-Characters = [
-
-    character(100, 30, True)
-
-]
+from Character import Chr
 
 try:
+    Chr1 = Chr(100, 30, True)
+    Chr2 = Chr(100, 30, True)
+    Chr3 = Chr(100, 30, True)
+except:
 
-    print(Characters[0])
 
-except SyntaxError as err:
-    print(err)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
